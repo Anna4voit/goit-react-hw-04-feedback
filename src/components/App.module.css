@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 60px 20px;
+  overflow: hidden;
+  background: linear-gradient(#360033, #0b8793);
+  height: 100vh;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  align-items: center;
+  font-size: 40px;
+}

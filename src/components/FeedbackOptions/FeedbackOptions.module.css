@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.btn {
+  cursor: pointer;
+  width: 150px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 10px rgba(255, 255, 255, 0.3);
+}
+
+.btn:hover {
+  background-color: rgb(10, 6, 34);
+  color: white;
+}
